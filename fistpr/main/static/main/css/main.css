@@ -1,0 +1,95 @@
+body {
+    background: rgba(204, 251, 226, 1);
+}
+aside {
+    float: left;
+    background: rgba(239, 226, 211, 1);
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: black;
+    border-right: 2px solid rgba(4, 66, 44, 1);
+}
+
+aside img {
+    width: 70px;
+    float: left;
+}
+
+aside .logo {
+    color: rgba(23, 163, 87, 1);
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    top: 6px;
+}
+
+aside a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: green;
+    transform: scale(1.05);
+}
+
+ul {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.features {
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    width: 75%;
+}
+
+.features img {
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+.features p {
+    max-width: 1000px;
+    padding:0px;
+    margin:0px auto;
+}
+.alert-warning {
+    float:left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: center;
+}
+
+.btn-warning {
+    margin-top: 10px;
+}
+
+.featuresAbout {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 900px;
+    font-size: 20px;
+    padding:0px;
+    margin:0px auto;
+}
+
+.featuresAbout h1 {
+    font-size: 40px;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
